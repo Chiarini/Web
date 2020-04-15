@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Risk Governance"
-theme = "hugo-marelli"
+title = "A Hugo website"
+theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
