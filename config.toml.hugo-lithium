@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Risk Governance"
+title = "A Hugo website"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
