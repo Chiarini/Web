@@ -8,6 +8,7 @@ title = "Risk Governance"
 # DefaultContentLanguage = "en"
 # enableInlineShortcodes = true
 # footnoteReturnLinkContents = "^"
+# menu: ["main", "footer"]
 
 theme = "hugo-marelli"
 googleAnalytics = ""
@@ -17,7 +18,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[menu]
+# [menu]
 
   [[menu.main]]
     identifier = "about"
