@@ -1,6 +1,14 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Risk Governance"
+# author = "Daniele Chiarini"
+# copyright = "Copyright © 2020–2021, Daniele Chiarini and the Hugo Authors; all rights reserved."
+# paginate = 3
+# languageCode = "en"
+# DefaultContentLanguage = "en"
+# enableInlineShortcodes = true
+# footnoteReturnLinkContents = "^"
+
 theme = "hugo-marelli"
 googleAnalytics = ""
 disqusShortname = ""
@@ -9,18 +17,38 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
     name = "About"
     url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    weight = 10
+    pre = "<i class='fas fa-heart'></i>"
+
+  [[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    pre = "<i class='fas fa-address-card'></i>"
+
+  [[menu.footer]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+    pre = "<i class='fas fa-folder'></i>"
+
+  [[menu.footer]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+    pre = "<i class='fas fa-tags'></i>"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "A website built for GRC."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
