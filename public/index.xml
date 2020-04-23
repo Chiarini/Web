@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Risk Governance</title>
     <link>/</link>
     <description>Recent content on Risk Governance</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>Copyright © 2020–2021, Daniele Chiarini and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Sat, 01 Jan 2000 19:50:00 +0200</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,9 +17,31 @@
       <pubDate>Sat, 01 Jan 2000 19:50:00 +0200</pubDate>
       
       <guid>/</guid>
-      <description>Welcome Hi! My name is Bruno Rodrigues, and I&amp;rsquo;m a statistician at the Ministry of Higher Education and Research in Luxembourg.
-I&amp;rsquo;m an economist by training and hold a PhD from the University of Strasbourg, but am interested in any subject that deals with statistics and machine learning in general.
-I program mostly in R and love sharing my knowledge, that&amp;rsquo;s why I started this blog. I share my posts also on R-bloggers and Rweekly.</description>
+      <description>&lt;h1 id=&#34;welcome&#34;&gt;Welcome&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Hi! My name is Bruno Rodrigues, and I&amp;rsquo;m a statistician at the Ministry of Higher Education and Research
+in Luxembourg.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m an economist by training and hold a PhD from the University of Strasbourg, 
+but am interested in any subject that deals with statistics and machine learning in general.&lt;/p&gt;
+&lt;p&gt;I program mostly in R and love sharing my knowledge, that&amp;rsquo;s why I started this blog.
+I share my posts also on &lt;a href=&#34;http://www.r-bloggers.com&#34;&gt;R-bloggers&lt;/a&gt; and &lt;a href=&#34;https://rweekly.org&#34;&gt;Rweekly&lt;/a&gt;. 
+In my posts, I discuss new packages I discovered or new ways of using packages.&lt;/p&gt;
+&lt;p&gt;If you find this blog useful, you might want to follow 
+me on &lt;a href=&#34;https://www.twitter.com/brodriguesco&#34;&gt;twitter&lt;/a&gt; for blog post updates and 
+&lt;a href=&#34;https://www.buymeacoffee.com/brodriguesco&#34;&gt;buy me an espresso&lt;/a&gt; or &lt;a href=&#34;https://www.paypal.me/brodriguesco&#34;&gt;paypal.me&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I wrote an ebook called &lt;em&gt;Modern R with the tidyverse&lt;/em&gt; that you can read for free
+&lt;a href=&#34;https://b-rodrigues.github.io/modern_R/&#34;&gt;here&lt;/a&gt;.
+If you find it useful and want to contribute to this blog and future ebooks, you can also
+purchase a copy on &lt;a href=&#34;https://leanpub.com/modern_tidyverse&#34;&gt;leanpub&lt;/a&gt;.
+This ebook is partly based of my &lt;a href=&#34;https://b-rodrigues.github.io/fput/&#34;&gt;old one&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also download my package, called &lt;a href=&#34;https://github.com/b-rodrigues/brotools&#34;&gt;{brotools}&lt;/a&gt;,
+which contains some functions I use daily. You might find them useful too! I also made a package
+called &lt;code&gt;{nethack}&lt;/code&gt; that contains data from NetHack games played online from 2001 to 2018. You
+can get it &lt;a href=&#34;https://github.com/b-rodrigues/nethack&#34;&gt;here&lt;/a&gt;. I also made another package, 
+&lt;a href=&#34;https://cran.r-project.org/web/packages/michelRodange/index.html&#34;&gt;{michelRodange}&lt;/a&gt;, which contains
+texts written by the Luxembourguish author Michel Rodange, that can be used for text mining.&lt;/p&gt;
+&lt;h1 id=&#34;blog-posts&#34;&gt;Blog posts&lt;/h1&gt;
+</description>
     </item>
     
   </channel>

@@ -1,12 +1,12 @@
 baseurl = "/"
-languageCode = "en-us"
+# languageCode = "en-us"
 title = "Risk Governance"
-# author = "Daniele Chiarini"
-# copyright = "Copyright © 2020–2021, Daniele Chiarini and the Hugo Authors; all rights reserved."
-# paginate = 3
-# languageCode = "en"
-# DefaultContentLanguage = "en"
-# enableInlineShortcodes = true
+author = "Daniele Chiarini"
+copyright = "Copyright © 2020–2021, Daniele Chiarini and the Hugo Authors; all rights reserved."
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
 # footnoteReturnLinkContents = "^"
 # menu: ["main", "footer"]
 
@@ -27,26 +27,26 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 10
     pre = "<i class='fas fa-heart'></i>"
 
-  [[menu.footer]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-    pre = "<i class='fas fa-address-card'></i>"
+#  [[menu.footer]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 10
+#    pre = "<i class='fas fa-address-card'></i>"
 
-  [[menu.footer]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 20
-    pre = "<i class='fas fa-folder'></i>"
+#  [[menu.footer]]
+#    identifier = "categories"
+#    name = "Categories"
+#    url = "/categories/"
+#    weight = 20
+#    pre = "<i class='fas fa-folder'></i>"
 
-  [[menu.footer]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 30
-    pre = "<i class='fas fa-tags'></i>"
+#  [[menu.footer]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags/"
+#    weight = 30
+#    pre = "<i class='fas fa-tags'></i>"
 
 [params]
     description = "A website built for GRC."
